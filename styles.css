@@ -1,3 +1,12 @@
+html {
+  background: url(images/26052281518_99bf20f828_o_4.jpg) no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   font-family: "Old Standard TT", serif;
   font-size: medium;
@@ -6,7 +15,17 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  min-height: 100vh;
+
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+  min-height: 200px;
+  width: 45vw;
+  margin: 100px auto;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 2%;
 }
