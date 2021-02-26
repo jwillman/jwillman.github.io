@@ -6,6 +6,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
+  overflow: hidden;
   border-top: 6px solid #FF5851;
 }
 
