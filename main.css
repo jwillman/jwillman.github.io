@@ -27,8 +27,9 @@ body {
 }
 .social {
     display: flex;
-    min-width: 150px;
+    min-width: 160px;
     justify-content: space-around;
+    font-size: 24px;
 }
 a,
 a:active,
