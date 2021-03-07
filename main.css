@@ -49,9 +49,9 @@ a:hover {
 }
 .contact {
     display: flex;
-    justify-content: center;
-    margin-top: -15px;
-    padding-bottom: 18px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
     line-height: 28px;
 }
 .social {
