@@ -2,6 +2,8 @@ html {
     background: url(images/26052281518_99bf20f828_o_5.jpg) no-repeat center
         center fixed #2a2a2a;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 body {
     color: #f4f1f4;
