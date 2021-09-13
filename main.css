@@ -65,8 +65,19 @@ a:hover {
     font-size: 24px;
 }
 h1 {
-    animation: falling 0.58s;
-    animation-timing-function: cubic-bezier(1, 0.7, 0.4, 0.2);
+    font-size: 2em;
+    font-weight: bold;
+}
+h1 > #hello {
+    display: inline-block;
+    padding-right: 9px;
+    animation: 0.58s cubic-bezier(1, 0.7, 0.4, 0.2) 0s 1 normal none running
+        falling;
+}
+h1 > #world {
+    display: inline-block;
+    animation: 0.88s cubic-bezier(1, 0.7, 0.4, 0.2) 0s 1 normal none running
+        falling;
 }
 @keyframes falling {
     0% {
