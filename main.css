@@ -1,15 +1,24 @@
-html {
-    background: url(images/26052281518_99bf20f828_o_5.jpg) no-repeat center
-        center fixed #2a2a2a;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-}
 body {
     color: #f4f1f4;
     font-family: "Montserrat", sans-serif;
     font-size: large;
     text-shadow: 1px 2px 0px black;
+
+    background: linear-gradient(-45deg, #aa553b, #92254f, #1c83a8, #1b9e7f);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 a,
 a:active,
