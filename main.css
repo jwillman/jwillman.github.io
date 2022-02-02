@@ -3,10 +3,9 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: large;
     text-shadow: 1px 2px 0px black;
-
-    background: linear-gradient(-45deg, #aa553b, #92254f, #1c83a8, #1b9e7f);
+    background: linear-gradient(-45deg, #aa553b, #92254f, #166785, #1b9e7f);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 20s ease infinite;
     height: 100vh;
 }
 @keyframes gradient {
@@ -49,16 +48,20 @@ a:hover {
 }
 .profile {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     padding-bottom: 20px;
     line-height: 23px;
 }
 .profile #profile-photo {
+    align-self: flex-start;
+    margin-top: 18px;
     width: 80px;
     height: 80px;
     object-fit: contain;
     padding-right: 20px;
+
+    /* float: left; */
 }
 .contact {
     display: flex;
