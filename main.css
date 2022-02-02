@@ -5,7 +5,7 @@ body {
     text-shadow: 1px 2px 0px black;
     background: linear-gradient(-45deg, #aa553b, #92254f, #166785, #1b9e7f);
     background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    animation: gradient 60s ease infinite;
     height: 100vh;
 }
 @keyframes gradient {
