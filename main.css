@@ -3,10 +3,21 @@ body {
     font-family: "Montserrat", sans-serif;
     font-size: large;
     text-shadow: 1px 2px 0px black;
-    background: linear-gradient(-45deg, #aa553b, #92254f, #166785, #1b9e7f);
+    background: linear-gradient(
+        -45deg,
+        #aa553b 0%,
+        #ab583d 20%,
+        #92254f 40%,
+        #166785 60%,
+        #17866c 80%
+    );
     background-size: 400% 400%;
     animation: gradient 60s ease infinite;
     height: 100vh;
+
+    /* For Firefox */
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
 }
 @keyframes gradient {
     0% {
