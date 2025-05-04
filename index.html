@@ -8,9 +8,10 @@
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap&text=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!%22#$%&'()*+,-./0123456789:;<=>?@[\]^_`{|}~"
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro&display=swap"
             rel="stylesheet"
         />
+
         <link rel="stylesheet" href="main.css" />
         <link rel="stylesheet" href="icons.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,32 +20,33 @@
             http-equiv="Content-Security-Policy"
             content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.cloudflareinsights.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; img-src 'self' *; media-src 'self'; font-src 'self' https://fonts.gstatic.com;"
         />
-        <title>Hello, World! I'm Jani.</title>
+        <title>Hi, I'm Jani.</title>
     </head>
     <body>
-        <div class="container">
-            <h1>
-                <span id="hello">Hello, </span><span id="world">World!</span>
-            </h1>
-            <div class="profile">
-                <img
-                    id="profile-photo"
-                    src="images/round-profile-photo_3.webp"
-                    alt="Profile"
-                />
-                <p>
-                    I'm Jani. A programmer, a hobbyist photographer, and
-                    occasional player of video games. I also like to climb, run,
-                    and snowboard.
-                </p>
-            </div>
-            <div class="contact">
-                <span>You can contact me at:</span>
-                <span>
-                    <a href="mailto:jani@willman.dev">jani@willman.dev</a>
-                </span>
-            </div>
-            <div class="social">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Hi, I'm Jani.</h1>
+            <img
+                src="images/round-profile-photo_3.webp"
+                alt="Jani's photo"
+                class="profile"
+            />
+            <p>
+                I'm a programmer, photographer, and outdoor enthusiast who loves
+                building, exploring, and creating.
+            </p>
+            <p>
+                You can contact me at:<br /><a href="mailto:jani@willman.dev"
+                    >jani@willman.dev</a
+                >
+            </p>
+            <div class="social-icons">
+                <a
+                    href="https://www.linkedin.com/in/jani-willman-74805667/"
+                    aria-label="Linkedin profile"
+                >
+                    <span class="icon-linkedin-square"></span>
+                </a>
                 <a
                     href="https://www.flickr.com/photos/144156641@N07"
                     aria-label="Flickr profile"
@@ -52,22 +54,16 @@
                     <span class="icon-flickr"></span>
                 </a>
                 <a
-                    href="https://www.instagram.com/jmw____/"
+                    href="https://www.instagram.com/jmwxcamera/"
                     aria-label="Instagram profile"
                 >
-                    <span class="icon-instagram"></span
-                ></a>
+                    <span class="icon-instagram"></span>
+                </a>
                 <a
                     href="https://github.com/jwillman"
                     aria-label="Github profile"
                 >
                     <span class="icon-github"></span>
-                </a>
-                <a
-                    href="https://www.linkedin.com/in/jani-willman-74805667/"
-                    aria-label="Linkedin profile"
-                >
-                    <span class="icon-linkedin-square"></span>
                 </a>
             </div>
         </div>
