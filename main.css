@@ -35,7 +35,7 @@ body.highres {
 .content {
     position: relative;
     z-index: 2;
-    max-width: 600px;
+    max-width: 450px;
     margin: auto;
     padding: 20px;
 }
