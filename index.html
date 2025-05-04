@@ -6,19 +6,31 @@
             rel="icon"
             href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🌍</text></svg>"
         />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro&display=swap"
-            rel="stylesheet"
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+            crossorigin
         />
-
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro&display=swap"
+            onload="this.rel='stylesheet'"
+        />
+        <noscript>
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro&display=swap"
+            />
+        </noscript>
         <link rel="stylesheet" href="main.css?random=1" />
         <link rel="stylesheet" href="icons.css?random=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="Description" content="Hello, World! I'm Jani." />
         <meta
             http-equiv="Content-Security-Policy"
-            content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.cloudflareinsights.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; img-src 'self' *; media-src 'self'; font-src 'self' https://fonts.gstatic.com;"
+            content="default-src 'self'; script-src 'self' 'unsafe-inline' https://*.cloudflareinsights.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' *; media-src 'self'; font-src 'self' https://fonts.gstatic.com;"
         />
         <title>Hi, I'm Jani.</title>
     </head>
