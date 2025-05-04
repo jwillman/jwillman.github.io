@@ -15,6 +15,7 @@ html {
 
 body {
     background: url("images/bg-lowres.webp") center/cover no-repeat;
+    transition: background 1s ease;
 }
 
 body.highres {
