@@ -9,9 +9,17 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: url("images/R0001138.webp") no-repeat center center fixed;
     background-size: cover;
     position: relative;
+}
+
+body {
+    background: url("images/bg-lowres.webp") center/cover no-repeat;
+    transition: background 1s ease;
+}
+
+body.highres {
+    background: url("images/bg-highres.webp") center/cover no-repeat;
 }
 
 .overlay {
