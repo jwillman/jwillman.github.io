@@ -14,12 +14,14 @@ html {
 }
 
 body {
-    background: url("images/bg-lowres.webp") center/cover no-repeat;
-    transition: background 1s ease;
+    background-color: #1a1a1a;
+    background: url("images/bg-highres.webp") center/cover no-repeat;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
 }
 
-body.highres {
-    background: url("images/bg-highres.webp") center/cover no-repeat;
+body.loaded {
+    opacity: 1;
 }
 
 .overlay {
